@@ -1,10 +1,15 @@
 # Cali TV
 
-A thin status screen for Android TV — clock, alerts, homelab health, weather,
-and today's calendar, pulled live from a self-hosted home-assistant API
-called Cali. It installs as its own tile on the TV's home screen, next to
-Netflix/YouTube/the live TV guide — it doesn't replace or touch anything
-already on the device.
+A custom Android TV dashboard — a home-screen-style layout (featured
+banner, real poster art, a real app launcher with real icons, status info)
+pulled live from a self-hosted home-assistant API called Cali. It installs
+as its own tile on the TV's home screen, next to Netflix/YouTube/the live
+TV guide — it doesn't replace or touch anything already on the device.
+
+**New to this project? Read [WALKTHROUGH.md](WALKTHROUGH.md) first** — a
+full, non-technical, start-to-finish story of how this was built, from
+enabling Developer Options on the TV through every bug found along the
+way. This README is the technical reference; that file is the narrative.
 
 Built and verified working on a real Android TV 11 box (JVC/MTC-branded,
 MediaTek chipset) on 2026-10-31.
