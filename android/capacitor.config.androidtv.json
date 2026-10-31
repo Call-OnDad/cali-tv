@@ -1,0 +1,9 @@
+{
+  "appId": "media.callon.cali",
+  "appName": "Cali",
+  "webDir": "../tv-bundle",
+  "android": {
+    "allowMixedContent": true,
+    "backgroundColor": "#07070F"
+  }
+}
