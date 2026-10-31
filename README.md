@@ -10,6 +10,7 @@ TV guide — it doesn't replace or touch anything already on the device.
 full, non-technical, start-to-finish story of how this was built, from
 enabling Developer Options on the TV through every bug found along the
 way. This README is the technical reference; that file is the narrative.
+Or [watch the video](https://youtu.be/PinVaxIUIP0) instead.
 
 Built and verified working on a real Android TV 11 box (JVC/MTC-branded,
 MediaTek chipset) on 2026-10-31.

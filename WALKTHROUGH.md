@@ -6,6 +6,8 @@ happened, including the dead ends and the bugs that looked like something
 else at first. Written as source material for a video — each phase below
 works as a chapter.
 
+**Watch the video:** [We Gave Cali Her Own TV App (Full Build Log)](https://youtu.be/PinVaxIUIP0)
+
 The whole project ran in one extended session on 2026-10-31, starting from
 "I think I can get into my TV" and ending with a real working home-screen
 replacement that launches other apps and opens Settings.
