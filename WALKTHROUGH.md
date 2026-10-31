@@ -251,20 +251,57 @@ against a real Google TV home screen side-by-side and closing the gaps:
 
 ---
 
+## Phase 10 — A proper tile icon, and filling the screen with real content
+
+Two loose ends from the first version of this walkthrough, both closed out
+in a follow-up session.
+
+**A real tile icon.** The app had been using a plain placeholder icon
+wherever the TV shows its tile. A proper one was designed instead — dark
+background, a simple cyan ring-and-clock mark matching Cali's own branding
+inside the app, with a thin cyan accent line along the bottom. Built as a
+scalable graphic rather than a flat image, so it stays sharp at any size
+the TV decides to show it at. Confirmed live on the device.
+
+**Filling out the content rows.** Once more real data was flowing, it
+became obvious the artwork rows were only ever showing five items each —
+nowhere near enough to fill a modern TV's width, leaving a noticeable gap
+of empty space on the right-hand side. Two changes fixed this: showing
+more real items per row (up from 5 to as many as 12), and — a genuine new
+addition rather than just "more of the same" — a second kind of card
+mixed into the "on the way" row: live download progress for anything
+currently being fetched by the household's media system, shown as a
+small progress bar rather than artwork (since a download in progress
+doesn't have cover art yet). Both rows now read as genuinely full,
+content-rich shelves rather than a handful of items floating in empty
+space.
+
+---
+
 ## Where it stands now
 
 A fully working, from-scratch Android TV app that:
-- Shows up as its own tile on the TV's home screen, without touching or
-  replacing anything already there.
+- Shows up as its own tile on the TV's home screen, with a proper custom
+  icon, without touching or replacing anything already there.
 - Displays a live, auto-refreshing dashboard with real household/business
   status information.
-- Shows real artwork for recently-added and on-the-way media.
+- Shows real artwork for recently-added media, live download progress,
+  and anything on the way — enough of each to fill the screen properly.
 - Lists every app on the TV with its real icon, and can actually launch
   any of them.
 - Can open the TV's full Settings menu.
 - Is fully navigable with the ordinary TV remote.
 
-**Not yet done**, for anyone picking this up next: making Cali the TV's
-actual default home screen (so it's the very first thing you see when the
-TV turns on, rather than a tile you switch to), and a custom icon for the
-app tile itself (it currently uses a generic placeholder icon).
+**One thing was investigated and deliberately left as it is**: making
+Cali the TV's actual default home screen, so it's the very first thing
+you see the moment the TV turns on, rather than a tile you switch to.
+Every standard Android method for changing this was tried — including
+ones that aren't normally exposed through the TV's own on-screen menus —
+and all of them hit a genuine limitation specific to this TV's software,
+not a problem with Cali itself. The one remaining option that would
+likely have forced it through was disabling the TV's own built-in home
+screen so Android had no other choice — deliberately **not done**, since
+that would risk leaving the household without an easy way back to normal
+TV use if anything ever went wrong, on a TV the whole family uses daily.
+Cali stays a true one-tap-away app instead, which is a completely normal
+and low-risk way for it to live alongside everything else.
